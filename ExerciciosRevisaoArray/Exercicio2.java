@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Vetor2 {
+public class Exercicio2 {
 
     public static void main(String[]args) {
 
@@ -19,4 +19,5 @@ public class Vetor2 {
         sc.close();
     }
 }
+
 
