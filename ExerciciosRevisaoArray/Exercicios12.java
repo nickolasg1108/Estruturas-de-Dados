@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio12 {
+public class Exercicios12 {
     public static void main(String[] args) {
         int[] idade = new int[30];
         float[] altura = new float[30];
@@ -28,3 +28,4 @@ public class Exercicio12 {
 
     }
 }
+
