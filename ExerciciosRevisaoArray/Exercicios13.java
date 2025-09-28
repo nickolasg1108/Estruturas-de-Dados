@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio13 {
+public class Exercicios13 {
     public static void main(String[] args) {
         float[] mesmediatemp = new float[12];
         float mediaAno = 0;
@@ -21,5 +21,6 @@ public class Exercicio13 {
             }
         }
     }
+
 
 }
