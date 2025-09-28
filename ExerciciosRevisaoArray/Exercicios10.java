@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio10 {
+public class Exercicios10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] VetorA = new int[10];
@@ -40,5 +40,6 @@ public class Exercicio10 {
             System.out.print(VetorC[i] + " ");
         }
     }
+
 
 }
