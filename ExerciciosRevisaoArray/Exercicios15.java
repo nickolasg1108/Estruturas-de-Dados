@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Exercicio15 {
+public class Exercicios15 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> valores = new ArrayList<>();
@@ -61,4 +61,5 @@ public class Exercicio15 {
         System.out.println("Questão dos inferno\nAdeus, encerrando programa");
 
     }
+
 }
