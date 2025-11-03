@@ -1,7 +1,61 @@
-package fila_dinamica;
+package com.dao.repository;
 
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
+/* 
+ * Interface que define as operações básicas de uma fila genérica
+ * @param <T> o tipo dos elementos armazenados na fila
+ * @author Nickolas Gabriel Aquino  
+ * @version 1.0
+ * @since 26/10/2025
+ */
+public interface DEQueable<T> {
+	
+	/**
+	 * Adiciona um elemento ao início da fila
+	 */
+	void beginEnqueue(T dado);
+	
+	/**
+	 * Adiciona um elemento ao final da fila
+	 */
+	void endEnqueue(T dado);
+	
+	/**
+	 * Retorna o elemento do início da fila sem removê-lo
+	 */
+	T front();
+	
+	/**
+	 * Retorna o elemento do final da fila sem removê-lo
+	 */
+	T rear();
+	
+	/**
+	 * Remove e retorna o elemento do início da fila
+	 */
+	T beginDequeue();
+	
+	/**
+	 * Remove e retorna o elemento do final da fila
+	 */
+	T endDequeue();
+	
+	/**
+	 * Verifica se a fila está cheia
+	 */
+	boolean isFull();
+	
+	/**
+	 * Verifica se a fila está vazia
+	 */
+	boolean isEmpty();
+	
+	/**
+	 * Retorna uma representação em string da fila do final para o início
+	 */
+	String printFrontToRear();
+	
+	/**
+	 * Retorna uma representação em string da fila do início para o final
+	 */
+	String printRearToFront();
 }
